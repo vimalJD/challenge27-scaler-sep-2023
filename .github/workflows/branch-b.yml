@@ -5,7 +5,7 @@ on:
     branches-ignore: [master, main]
     # Remove the line above to run when pushing to master
   pull_request:
-    branches: [master, main]
+    branches: '*b*'    # Run it on b branch only
 
 jobs:
   build:
